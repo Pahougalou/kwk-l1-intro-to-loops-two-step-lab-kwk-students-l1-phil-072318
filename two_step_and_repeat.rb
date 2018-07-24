@@ -40,7 +40,6 @@ loop do
   steps = +1
   end
 end
-end
 
 how_many_steps
 
