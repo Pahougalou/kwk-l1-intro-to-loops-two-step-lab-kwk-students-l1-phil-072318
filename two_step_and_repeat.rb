@@ -34,7 +34,7 @@ def how_many_steps
   steps = 0 
     loop do
       steps = +1
-        if step%2==0 
+        if steps%2==0 
           puts "Left" 
         else 
           puts "right" 
