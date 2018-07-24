@@ -32,12 +32,12 @@
 
 def how_many_steps
 steps = 0 
-loop do 
+loop do
+    steps = +1
   if step%2==0 
-    puts left 
+    puts "Left" 
   else 
-    puts right 
-  steps = +1
+    puts "right" 
   end
 end
 
