@@ -38,8 +38,8 @@ loop do
   else 
     puts right 
   steps = +1
-  break
   end
+end
 end
 
 how_many_steps
