@@ -33,9 +33,9 @@
 def how_many_steps
 steps = 0 
 loop do 
-  if step%==0 
+  if step%2==0 
     puts left 
-    elsif 
+  else 
     puts right 
   steps = +1
   end
